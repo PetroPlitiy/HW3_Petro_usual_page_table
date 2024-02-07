@@ -1,0 +1,177 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+/* Project styles */
+* {
+ box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+table, th, td, tr {
+    border-collapse: initial;
+    vertical-align: middle;
+}
+
+td, tr {
+    border-bottom: 1px solid #E4E4EF; 
+}
+
+th {
+    
+    border-bottom: 1px solid #E4E4EF;
+
+}
+
+table {
+    border-radius: 8px;
+    width: 1100px;
+    margin-top: 40px;
+    text-align: left;
+    border-top: 1px solid #E4E4EF;
+    border-bottom: 1px solid #E4E4EF;
+    border-right: 1px solid #E4E4EF;
+    border-left: 1px solid #E4E4EF;
+}
+
+th {
+font-family: monospace;
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+color: #1a1a1a;
+padding: 18px 16px;
+}
+
+
+.user, td{
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a1a1a; 
+    padding: 8px 18px 8px 16px;
+    text-align: left;
+}
+.user+td+td {
+    padding: 18px 16px;
+}
+
+.user+td+td+td {
+    padding: 14px 16px;
+    text-align: center;
+}
+
+
+.user+td {
+    padding: 18px 16px;
+}
+
+
+p {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 12px;
+}
+
+
+.header {
+    background: #5f87df;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    text-transform: initial;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 4px 24px;
+    width: 83px;
+    height: 28px;
+    background: #ededfe;
+    font-family: "Nunito Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+.violet {
+    background-color: #EDEDFE;
+    color: #605DEC;
+    /* opacity: 50%; */
+}
+.gren {
+    background-color: #EBF6EB;
+    color: #31AA27;
+}
+.orange {
+    background-color: #FFF4E4;
+    color: #E99518;
+}
+.red {
+    background-color: #FFF0F0;
+    color: #F93232;
+}
+.grey {
+    background-color: #F8F9FB;
+    color: #BDBCDB;
+}

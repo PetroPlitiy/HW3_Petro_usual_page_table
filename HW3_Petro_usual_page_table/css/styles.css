@@ -1,0 +1,116 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Project styles */
+* {
+ box-sizing: border-box;
+}
+
+.container {
+    width: 650px;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+.header {
+    background: #5f87df;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    text-transform: initial;
+    text-decoration: none;
+}
+
+
+table, td, th {
+    border: 1px solid #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 24px;
+    width: 650px;
+    height: 120px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+td {
+    margin: 1px;
+}
+
+.color_grey {
+    background-color: #808080;
+}
+
+
+.color_green_fierce {
+    background-color: #576212;
+}
+
+
+.color_green_fierce + td + td + td {
+    background-color: #23c234;
+}
+
+ .color_dark_green {
+        background-color: #154312;
+}
+
+.color_dark_green + td +td {
+    background-color: #fac234;
+}
+
+.blue {
+    background-color: #0000ff;
+}
